@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         Intent toHandleActivity = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
         startActivity(toHandleActivity);
     }
+
+    public void setReminder(View view) {
+    } 
 }
 
 
